@@ -1,2 +1,6 @@
 conda create -n kidney python=3.8 -y    at anaconda prompt
 conda activate kidney
+
+pip install --upgrade pip setuptools wheel
+
+pip install -r requirements.txt
